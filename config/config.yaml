@@ -1,0 +1,8 @@
+# Information on module output which are artifacts
+artifacts_root: artifacts 
+
+data_ingestion: # create some paths 
+  root_dir: artifacts/data_ingestion # create a folder called data_ingestion, which main aim is to read or load the dataset from where it is coming from the URL 
+  source_URL: https://github.com/ez-anthro-tech-design/datasets/raw/fb00ebe8ee13ab2e21e0a202e7140541e08b8820/summarizer_data.zip #source of the dataset
+  local_data_file: artifacts/data_ingestion/data.zip #download the zip file
+  unzip_dir: artifacts/data_ingestion  #unzip the zip file 
